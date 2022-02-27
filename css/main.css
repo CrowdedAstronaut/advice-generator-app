@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Manrope:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
-:root {
-  --light-cyan: hsl(193, 38%, 86%);
-  --neon-green: hsl(150, 100%, 66%);
-  --grayish-blue: hsl(217, 19%, 38%);
-  --dark-grayish-blue: hsl(217, 19%, 24%);
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +15,7 @@ button {
 }
 
 body {
-  background-color: var(--dark-grayish-blue);
+  background-color: #313a48;
   padding: 1.25rem;
   font-family: "Manrope", sans-serif;
   display: flex;
@@ -34,7 +27,7 @@ body {
 }
 
 .container {
-  background-color: var(--grayish-blue);
+  background-color: #4f5d74;
   padding: 1.25rem 1.25rem 3rem;
   color: #ffffff;
   border-radius: 1.25rem;
@@ -42,7 +35,7 @@ body {
 }
 
 #title {
-  color: var(--neon-green);
+  color: #53ffaa;
   font-size: 0.8rem;
   text-transform: uppercase;
   margin-bottom: 1.25rem;
@@ -52,18 +45,18 @@ body {
 
 #text {
   font-size: 28px;
-  color: var(--light-cyan);
+  color: #cee3e9;
   line-height: 1.5;
   padding-bottom: 2rem;
 }
 
 .divider-line {
-  color: var(--light-cyan);
+  color: #cee3e9;
   position: relative;
 }
 
 article button {
-  background-color: var(--neon-green);
+  background-color: #53ffaa;
   padding: 1.25rem;
   border: none;
   border-radius: 50%;

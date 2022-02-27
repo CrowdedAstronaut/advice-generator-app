@@ -117,5 +117,11 @@ article img {
   position: relative;
   border: 1px solid white;
 }
+.container .dice-circle {
+  background-color: #53ffaa;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
 
 /*# sourceMappingURL=main.css.map */

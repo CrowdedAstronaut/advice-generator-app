@@ -5,4 +5,10 @@
   border-radius: 1.25rem;
   position: relative;
   border: 1px solid white;
+  .dice-circle {
+    background-color: $neon-green;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+  }
 }

@@ -27,14 +27,6 @@ body {
   text-align: center;
 }
 
-.container {
-  background-color: $grayish-blue;
-  padding: 1.25rem 1.25rem 3rem;
-  color: #ffffff;
-  border-radius: 1.25rem;
-  position: relative;
-}
-
 #title {
   color: $neon-green;
   font-size: 0.8rem;
@@ -72,7 +64,7 @@ article button {
 }
 
 article button:hover {
-  box-shadow: 1px 1px 4px 1px hsl(150, 59%, 54%);
+  box-shadow: 1px 1px 4px 1px $neon-green;
   transition: 0.2s ease-in-out;
 }
 

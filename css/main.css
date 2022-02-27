@@ -26,14 +26,6 @@ body {
   text-align: center;
 }
 
-.container {
-  background-color: #4f5d74;
-  padding: 1.25rem 1.25rem 3rem;
-  color: #ffffff;
-  border-radius: 1.25rem;
-  position: relative;
-}
-
 #title {
   color: #53ffaa;
   font-size: 0.8rem;
@@ -71,7 +63,7 @@ article button {
 }
 
 article button:hover {
-  box-shadow: 1px 1px 4px 1px #44cf8a;
+  box-shadow: 1px 1px 4px 1px #53ffaa;
   transition: 0.2s ease-in-out;
 }
 

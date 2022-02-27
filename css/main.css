@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Manrope:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+:root {
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  user-select: none;
+}
+
+body {
+  background-color: var(--dark-grayish-blue);
+  padding: 1.25rem;
+  font-family: "Manrope", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 0.1px);
+  text-align: center;
+}
+
+.container {
+  background-color: var(--grayish-blue);
+  padding: 1.25rem 1.25rem 3rem;
+  color: #ffffff;
+  border-radius: 1.25rem;
+  position: relative;
+}
+
+#title {
+  color: var(--neon-green);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
+  letter-spacing: 0.4rem;
+  margin-top: 2rem;
+}
+
+#text {
+  font-size: 28px;
+  color: var(--light-cyan);
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
+
+.divider-line {
+  color: var(--light-cyan);
+  position: relative;
+}
+
+article button {
+  background-color: var(--neon-green);
+  padding: 1.25rem;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -2rem;
+  height: 4rem;
+  width: 4rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+article button:hover {
+  box-shadow: 1px 1px 4px 1px #44cf8a;
+  transition: 0.2s ease-in-out;
+}
+
+article img {
+  border-radius: 0.2rem;
+}
+
+@media (min-width: 500px) {
+  .container {
+    max-width: 480px;
+  }
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: #3e52a3;
+}
+
+/* Font families. */
+.mobile-headline {
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 3.45714px;
+}
+
+.mobile-body {
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: -0.257143px;
+}
+
+.desktop-headline {
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 4.08571px;
+}
+
+.desktop-body {
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -0.3px;
+}
+
+/*# sourceMappingURL=main.css.map */

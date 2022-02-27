@@ -109,4 +109,13 @@ article img {
   letter-spacing: -0.3px;
 }
 
+.container {
+  background-color: #4f5d74;
+  padding: 4% 4% 3rem;
+  color: #ffffff;
+  border-radius: 1.25rem;
+  position: relative;
+  border: 1px solid white;
+}
+
 /*# sourceMappingURL=main.css.map */

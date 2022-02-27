@@ -72,8 +72,8 @@ article img {
   border-radius: 0.2rem;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 375px) {
   .container {
-    max-width: 480px;
+    max-width: 95%;
   }
 }

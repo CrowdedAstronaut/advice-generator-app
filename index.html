@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <!-- displays site properly based on user's device -->
 
     <link
@@ -17,26 +20,33 @@
   </head>
   <body>
     <main class="container">
-     <div class="mobile-headline">
-      <h1 id="title">''</h1>
-     </div>
-     <div class="mobile-text">
-      <p id="text">''</p>
-     </div>
-      <img
-        class="divider-line"
-        src="./images/pattern-divider-mobile.svg"
-        alt="divider"
-      />
-
-      <div class="container__lower">
-        <button
-          onclick="retrieveAdvice()"
-          aria-label="click here to generate a quote"
-        ><div class="dice-circle">
-        </div img src="./images/icon-dice.svg" alt="this is a dice icon" />
+      <div class="flex-wrapper">
+        <div class="mobile-headline">
+          <h1 id="title">''</h1>
         </div>
-        </button>
+        <div class="mobile-text">
+          <p id="text">''</p>
+        </div>
+        <img
+          class="divider-line"
+          src="./images/pattern-divider-mobile.svg"
+          alt="divider"
+        />
+        <div class="container__lower">
+          <div class="button_container">
+            <button
+              onclick="retrieveAdvice()"
+              aria-label="click here to generate a quote"
+            >
+              <div class="dice-circle">
+                <img
+                  src="./images/icon-dice.svg"
+                  alt="this is a dice icon"
+                />
+              </div>
+            </button>
+          </div>
+        </div>
       </div>
     </main>
   </body>

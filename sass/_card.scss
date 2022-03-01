@@ -1,14 +1,35 @@
 .container {
-  background-color: $grayish-blue;
-  padding: 4% 4% 3rem;
-  color: #ffffff;
-  border-radius: 1.25rem;
-  position: relative;
-  border: 1px solid white;
-  .dice-circle {
-    background-color: $neon-green;
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
+  width: 540px;
+
+  .flex-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: $dark-grayish-blue;
+    padding: 4% 4% 3rem;
+    color: #ffffff;
+    border-radius: 1.25rem;
+    position: relative;
+    border: 1px solid white;
+
+    .container__lower {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+      .button_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .dice-circle {
+          background-color: $neon-green;
+          width: 64px;
+          height: 64px;
+          border-radius: 50%;
+        }
+      }
+    }
   }
 }

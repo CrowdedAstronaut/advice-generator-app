@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Mobile Preview
 
-![Mobile Preview]()
+![Mobile Preview](https://github.com/CrowdedAstronaut/advice-generator-app/raw/main/images/advice-generator-mobile-preview.gif)
 
 ### Desktop Preview
 

@@ -5,24 +5,12 @@ $display-text: "Manrope", normal;
 $body-text: "Manrope", normal;
 $font-weight: 800;
 
-.mobile-headline {
-  font-size: 11px;
-  line-height: 15px;
-  letter-spacing: 3.45714px;
-}
-.mobile-body {
-  font-size: 24px;
-  line-height: 33px;
-  letter-spacing: -0.257143px;
-}
-
-.desktop-headline {
+.advice_headline {
   font-size: 13px;
   line-height: 18px;
   letter-spacing: 4.08571px;
 }
-
-.desktop-body {
+.advice_text {
   font-size: 28px;
   line-height: 38px;
   letter-spacing: -0.3px;

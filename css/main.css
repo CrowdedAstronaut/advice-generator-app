@@ -34,25 +34,13 @@ button {
 }
 
 /* Font families. */
-.mobile-headline {
-  font-size: 11px;
-  line-height: 15px;
-  letter-spacing: 3.45714px;
-}
-
-.mobile-body {
-  font-size: 24px;
-  line-height: 33px;
-  letter-spacing: -0.257143px;
-}
-
-.desktop-headline {
+.advice_headline {
   font-size: 13px;
   line-height: 18px;
   letter-spacing: 4.08571px;
 }
 
-.desktop-body {
+.advice_text {
   font-size: 28px;
   line-height: 38px;
   letter-spacing: -0.3px;
@@ -69,7 +57,6 @@ button {
   padding: 4% 4% 3rem;
   color: #ffffff;
   border-radius: 1.25rem;
-  border: 1px solid white;
 }
 .container .container__lower {
   display: flex;
@@ -98,6 +85,16 @@ button {
 @media (max-width: 600px) {
   .container {
     width: 343px;
+  }
+  .container .advice_headline {
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 3.45714px;
+  }
+  .container .advice_text {
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: -0.257143px;
   }
 }
 /*

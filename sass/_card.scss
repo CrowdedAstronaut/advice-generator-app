@@ -9,7 +9,7 @@
     padding: 4% 4% 3rem;
     color: #ffffff;
     border-radius: 1.25rem;
-    border: 1px solid white;
+    // border: 1px solid white;
   }
   .container__lower {
     display: flex;
@@ -40,5 +40,16 @@
 @media (max-width: 600px) {
   .container {
     width: 343px;
+    .advice_headline {
+      font-size: 11px;
+      line-height: 15px;
+      letter-spacing: 3.45714px;
+    }
+
+    .advice_text {
+      font-size: 24px;
+      line-height: 33px;
+      letter-spacing: -0.257143px;
+    }
   }
 }

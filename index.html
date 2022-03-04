@@ -35,9 +35,14 @@
       </div>
       <div class="container__lower">
         <div class="button__wrapper">
-          <button
+          <a
+            role="button"
+            tabindex="0"
+            class="green-button"
             onclick="retrieveAdvice()"
             aria-label="click here to generate a quote"
+            target="_blank"
+            rel="noopener"
           >
             <div class="dice-circle">
               <img
@@ -45,7 +50,7 @@
                 alt="this is a dice icon"
               />
             </div>
-          </button>
+          </a>
         </div>
       </div>
     </main>

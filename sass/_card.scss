@@ -9,7 +9,6 @@
     padding: 4% 4% 3rem;
     color: #ffffff;
     border-radius: 1.25rem;
-    position: relative;
     border: 1px solid white;
   }
   .container__lower {
@@ -26,15 +25,20 @@
     .dice-circle {
       background-color: $neon-green;
       border-radius: 50%;
+      position: relative;
+      z-index: 5;
+      bottom: 2rem;
       padding: 1.25rem;
       border: none;
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
       height: 4rem;
       width: 4rem;
       cursor: pointer;
-      transition: background-color 0.3s ease-in-out;
     }
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 343px;
   }
 }

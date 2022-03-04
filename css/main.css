@@ -1,25 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Manrope:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
-img {
-  max-width: 100%;
-}
-
-button {
-  user-select: none;
-}
-
-body {
-  background-color: #202733;
-  padding: 1.25rem;
-  font-family: "Manrope", sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: calc(100vh - 0.1px);
-  text-align: center;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Manrope:wght@800&display=swap");
 #title {
   color: #53ffaa;
   font-size: 0.8rem;
@@ -41,35 +21,10 @@ body {
   position: relative;
 }
 
-article button {
-  background-color: #53ffaa;
-  padding: 1.25rem;
-  border: none;
-  border-radius: 50%;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -2rem;
-  height: 4rem;
-  width: 4rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
+button {
+  user-select: none;
 }
 
-article button:hover {
-  box-shadow: 1px 1px 4px 1px #53ffaa;
-  transition: 0.2s ease-in-out;
-}
-
-article img {
-  border-radius: 0.2rem;
-}
-
-@media (min-width: 375px) {
-  .container {
-    width: 97%;
-  }
-}
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -114,7 +69,6 @@ article img {
   padding: 4% 4% 3rem;
   color: #ffffff;
   border-radius: 1.25rem;
-  position: relative;
   border: 1px solid white;
 }
 .container .container__lower {
@@ -131,17 +85,21 @@ article img {
 .container .container__lower .dice-circle {
   background-color: #53ffaa;
   border-radius: 50%;
+  position: relative;
+  z-index: 5;
+  bottom: 2rem;
   padding: 1.25rem;
   border: none;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
   height: 4rem;
   width: 4rem;
   cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
 }
 
+@media (max-width: 600px) {
+  .container {
+    width: 343px;
+  }
+}
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -174,6 +132,15 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  background-color: #202733;
+  padding: 1.25rem;
+  font-family: "Manrope", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 0.1px);
+  text-align: center;
 }
 
 /*

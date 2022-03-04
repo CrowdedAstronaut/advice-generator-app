@@ -1,3 +1,28 @@
+#title {
+  color: $neon-green;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
+  letter-spacing: 0.4rem;
+  margin-top: 2rem;
+}
+
+#text {
+  font-size: 28px;
+  color: $light-cyan;
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
+
+.divider-line {
+  color: $light-cyan;
+  position: relative;
+}
+
+button {
+  user-select: none;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;

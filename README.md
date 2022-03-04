@@ -41,7 +41,7 @@ Users should be able to:
 
 ### Desktop Preview
 
-![Desktop Preview]()
+![Desktop Preview](https://github.com/CrowdedAstronaut/advice-generator-app/raw/main/images/advice-generator-desktop-preview.gif)
 
 # Technologies <a name="technologies"></a>
 

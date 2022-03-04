@@ -22,11 +22,11 @@
       align-items: center;
       justify-content: center;
     }
-    .dice-circle {
+    #dice-circle {
       background-color: $neon-green;
       border-radius: 50%;
       position: relative;
-      z-index: 5;
+      z-index: 1;
       bottom: 2rem;
       padding: 1.25rem;
       border: none;
@@ -51,7 +51,7 @@
       line-height: 33px;
       letter-spacing: -0.257143px;
     }
-    .dice-circle :hover {
+    #dice-circle :hover {
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
   }

@@ -1,7 +1,7 @@
 # Frontend Mentor - NFT preview card component solution
 
 - Solution URL: [Git Repo](https://github.com/CrowdedAstronaut/front-end-mentor/tree/main/NFT-preview-card)
-- Live Site URL: [Live Site](https://www.nft.johnrossphillips.com/)
+- Live Site URL: [Live Site](https://crowdedastronaut.github.io/advice-generator-app/)
 
 This is a solution to the [Advice Generator App challenge on Frontend Mentor](https://github.com/CrowdedAstronaut/advice-generator-app).
 

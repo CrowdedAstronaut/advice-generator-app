@@ -80,23 +80,43 @@ Users should be able to:
 
 ## What I learned <a name="learning"></a>
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This exercise tested pixel perfect design and adjusting font-size, line-height, and line-spacing for the mobile vs. desktop views. It also tested the very basics of rendering data using the JS fetch API. There is a CSS hover state on the desktop view that I'm still figuring out!
 
-To see how you can add code snippets, see below:
+I used an anchor tag as opposed to a button for the click
+listener.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<a
+  role="button"
+  tabindex="0"
+  class="green-button"
+  onclick="getAdvice()"
+  aria-label="click here to generate some advice"
+  target="_blank"
+  rel="noopener"
+></a>
 ```
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
+I used scss color variables to make things easy to read and easy to change.
+
+```scss
+.proud-of-this-scss {
+  $dark-blue: #202733;
+  $dark-grayish-blue: #313a48;
+  $grayish-blue: #4f5d74;
+  $light-cyan: #cee3e9;
+  $neon-green: #53ffaa;
 }
 ```
 
+I used the JS fetch API to GET the data from the advice API and return the data as JSON.
+
 ```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
+const getAdvice = async () => {
+  const result = await fetch(
+    "https://api.adviceslip.com/advice"
+  );
+  const data = await result.json();
 };
 ```
 

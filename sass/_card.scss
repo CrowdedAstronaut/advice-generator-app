@@ -1,13 +1,12 @@
 .container {
   width: 540px;
 
-  .flex-wrapper {
+  .flex_wrapper {
     width: 100%;
     display: flex;
     flex-direction: column;
     background-color: $dark-grayish-blue;
     padding: 4% 4% 3rem;
-    color: #ffffff;
     border-radius: 1.25rem;
     // border: 1px solid white;
   }
@@ -22,7 +21,7 @@
       align-items: center;
       justify-content: center;
     }
-    #dice-circle {
+    .dice_circle {
       background-color: $neon-green;
       border-radius: 50%;
       position: relative;
@@ -51,7 +50,7 @@
       line-height: 33px;
       letter-spacing: -0.257143px;
     }
-    #dice-circle :hover {
+    #dice_circle :hover {
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
   }

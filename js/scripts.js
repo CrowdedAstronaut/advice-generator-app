@@ -15,6 +15,3 @@ const getAdvice = async () => {
 };
 
 getAdvice();
-
-document.getElementById("dice-circle").style["boxShadow"] =
-  "0 0 5px #999999";

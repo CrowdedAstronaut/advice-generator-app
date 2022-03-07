@@ -49,6 +49,7 @@ button {
 
 .container {
   width: 540px;
+  padding-bottom: 32px;
 }
 .container .flex_wrapper {
   width: 100%;

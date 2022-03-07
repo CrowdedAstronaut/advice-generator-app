@@ -12,6 +12,6 @@ const getAdvice = async () => {
   text.innerHTML = `"${data.slip.advice}"`;
 };
 
-window.addEventListener("DOMContentLoaded", () => {
-  getAdvice();
-});
+// window.addEventListener("DOMContentLoaded", () => {
+//   getAdvice();
+// });
